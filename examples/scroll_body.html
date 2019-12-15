@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>YYBar demo</title>
+    <style>
+        body{
+            background-color:black;
+        }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+    <script type='module'>
+        import Yybar from './yybar.min.js';
+        const yybar = new Yybar("yybar", {
+            progressTextColor: '#ffff00',
+            backBarColor: '#30B9C7',
+            foreBarColor:'#CF6B96',
+            descColor: '#ffffff',
+            progressText: 'Reading progress...',
+            desc: 'Hongkong Policy Address 2019 - Foreword',
+            height: 40,
+            position: 'top',
+            autoHide: false,
+            // target:'content'
+        });
+    </script>
+    <script>
+        const appDiv = document.getElementById('app');
+        appDiv.innerHTML = `
+        <div id="content"></div>
+        <div id="yybar"></div>
+        `;
+
+        var html = `
+            <div id="innerContent" style="font-size:20px;color:white;word-wrap:break-word;">
+            <p>Source: https://www.policyaddress.gov.hk/2019/eng/pdf/PA2019.pdf</p>    
+            <p>I. Foreword</p>
+
+            <p>
+            1. Today I present the third Policy Address in my term
+            of office. Right in the middle of the term of the current
+            Government, this Policy Address originally aimed to review
+            the progress made by the Government in the past and outline
+            the focus of our future work. I have therefore decided earlier
+            that I would deliver a more focused Policy Address in full this
+            year, and compile a new document entitled Policy Address
+            Supplement to comprehensively account for the work progress
+            and commitments of the current‑term Government. Although
+            Hong Kong has been undergoing unprecedented unrest in the
+            past four months, I have chosen to present this Policy Address
+            on the scheduled date as planned, and accordingly held over
+            50 consultation sessions, with a view to responding to the
+            aspirations of the community.
+            </p><p>
+            2. Hong Kong has always been one of the safest cities in
+            the world, and being civilised, law‑abiding, free, pluralistic
+            and inclusive, and paying mutual respect are the characteristics
+            that this Asia’s world city takes pride in. Yet in just a few
+            months, the areas affected by the social conflict arising from
+            opposition to the Government’s amendment of the Fugitive
+            Offenders Ordinance have become more extensive. Over 400
+            demonstrations, processions and rallies took place in various
+            districts in the past four months, and more often than not, they
+            ended up in violent protests, causing injuries to more than
+            1 100 people and the arrest of over 2 200. A handful of rioters
+            initiated attacks and sabotages in an organised and planned
+            manner. They doxxed and beat people holding different views,
+            spreading chaos and fear in Hong Kong and seriously disrupting
+            people’s daily lives. Employees of all trades and sectors, as well
+            as small, medium and large businesses alike are deeply worried about the prospect of Hong Kong. People are asking: will
+            Hong Kong return to normal? Is Hong Kong still a place we can
+            live in peace?
+            </p><p>
+            3. Many sectors of our society have condemned the radical
+            acts of rioters and supported the Government to strictly enforce
+            the law to end violence. Various sectors have appealed to people
+            with different political views to put aside differences, stop
+            violence as soon as possible and restore calm in society. Apart
+            from curbing illegal acts, supporting law enforcement by the
+            Police Force and ensuring that government departments and
+            public organisations will make full effort to reduce the impact
+            on citizens, the Government strives to pursue other courses
+            of action with a view to getting out of this impasse together
+            with the community. More than a month ago, I announced
+            the introduction of four actions, which included launching a
+            diversified dialogue platform with a view to finding a way out
+            for Hong Kong. The Policy Address delivered today outlines
+            various measures to deal with issues of greatest public concern.
+            Later, I will invite community leaders, experts and academics to
+            conduct an in‑depth and independent examination of the social
+            conflicts in Hong Kong and the deep‑seated problems that must
+            be addressed.
+            </p><p>
+            4. I will adhere to the following principles, be it in
+            handling the current major crisis or continuing to discharge
+            our governance responsibilities. First, we will adhere to
+            “One Country, Two Systems” and safeguard the rights and
+            freedoms protected by the Basic Law. However, any acts that
+            advocate Hong Kong’s independence and threaten the country’s
+            sovereignty, security and development interests will not be
+            tolerated. In the 22 years since Hong Kong returned to the
+            Motherland, “One Country, Two Systems” has proven to be the
+            best system for ensuring the long‑term prosperity and stability
+            of Hong Kong. Our national leaders have made it clear on
+            many occasions that “One Country, Two Systems” is a long‑term national strategy in line with the fundamental interests of our
+            country. The successful implementation of “One Country,
+            Two Systems” is the common aspiration of our country, Hong
+            Kong and people of the two places. Despite the stormy times
+            and overwhelming difficulties Hong Kong is experiencing, I
+            believe that so long as we accurately adhere to the principle of
+            “One Country, Two Systems”, we will be able to get out of the
+            impasse.
+            </p><p>
+            5. Second, the rule of law, which is the cornerstone of our
+            success, is a core value of paramount importance to Hong Kong.
+            We must make every effort to safeguard the rule of law. As the
+            integral components of the rule of law, a law‑abiding population,
+            strict and impartial enforcement of the laws, independent
+            prosecutorial power and judicial independence must be
+            respected by all and not be undermined.
+            </p><p>
+            6. Third, Hong Kong’s institutional strengths are built up
+            over time by different bodies and organisations including the
+            executive authorities, the legislature, the judiciary, the civil
+            service, law enforcement and regulatory agencies, public service
+            bodies, media organisations, etc. Each and every one of us has
+            the responsibility to protect these strengths and prevent them
+            from being eroded. I would like to take this opportunity to
+            thank everyone who has stood fast in their positions during the
+            confrontations in recent months, including staff members of
+            various organisations, in particular police officers, staff of the
+            MTR Corporation Limited and Airport Authority, maintenance
+            and cleaning workers, as well as numerous Hong Kong
+            citizens who silently stand guard over Hong Kong. With
+            their contributions and hard work, Hong Kong is able to keep
+            functioning.
+            </p><p>
+            7. Being an open and free city, Hong Kong has always
+            upheld the principles of inclusiveness, integration and mutual
+            respect, and has been resolving disputes by peaceful and rational means. Owing to our adherence to these values, Hong Kong
+            has won recognition and respect in the international community.
+            While we respect different opinions and understand people’s
+            enthusiasm in fighting for justice and rights, I believe our society
+            will agree that continued violence and spread of hatred would
+            erode the core values of Hong Kong, disrupt social peace and
+            undermine the excellent systems that took years of efforts to
+            build. I therefore appeal to every Hong Kong citizen to cherish
+            the city in which we all have a share and to safeguard the core
+            values we uphold so that Hong Kong can return to calmness.
+            </p><p>
+            8. Although we have not had enough time to prepare
+            for this year’s Policy Address, we still manage to put forward
+            over 220 new initiatives, albeit some are in the form of policy
+            directions or possible options. We stand ready to listen to
+            people’s views and to enrich or adjust the contents and details of
+            our policies.
+            </p><p>
+            9. Moreover, in view of the social situation this year,
+            we adopt the approach of launching initiatives once they
+            are ready, be it providing support to alleviate the impact of
+            economic downturn or improving people’s livelihood further.
+            The Financial Secretary has announced in August and September
+            a series of measures to support enterprises, safeguard jobs and
+            relieve people’s financial burden. The relevant Directors of
+            Bureaux have also announced in advance of the Policy Address
+            various new measures, including enhancing child care services,
+            supporting sports development, enhancing financial support
+            to help owners maintain their old buildings, strengthening
+            response measures against influenza and providing subsidies for
+            the installation of electric vehicle charging facilities in private
+            buildings. As such, I will only focus on four aspects of work,
+            namely housing, land supply, improving people’s livelihood and
+            economic development.
+            </p>
+
+            </div>
+            `;
+            document.getElementById('content').innerHTML = html;
+
+    </script>
+</body>
+</html>
