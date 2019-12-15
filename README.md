@@ -1,6 +1,8 @@
 # YYBar - A Reading Progress Bar
  ![YYBar](./images/001.jpg)
-
+## 
+#### *** No jQuery,  no dependency, written in pure JavaScript. ***
+## 
 ## <u>Features</u>
 ###### 1. Show progress percentage when scrolling the page or DOM element.
 ###### 2. The width of progress bar will be updated if scrolling.
