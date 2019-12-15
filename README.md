@@ -28,7 +28,7 @@
 #### Method 1: 
 ###### Using node.js package manager
 ``` 
-    npm install --save yybar 
+    npm install --save yybar3
 ```
 ###### Create a HTML DOM element on your component
 ``` 
@@ -36,7 +36,7 @@
 ```
 ###### import `yybar` into your component, then initialize it
 ``` 
-    import Yybar from 'yybar'
+    import Yybar from 'yybar3'
     const yybar = new Yybar("yybar")
 ```
 ## 
