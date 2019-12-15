@@ -3,6 +3,9 @@
 ## 
 #### *** No jQuery,  no dependency, written in pure JavaScript. ***
 ## 
+## <u>[YYBar demo](https://rykc.github.io/yybar/scroll_body.html)</u>
+ ![YYBar](./images/qrcode.png)
+## 
 ## <u>Features</u>
 ###### 1. Show progress percentage when scrolling the page or DOM element.
 ###### 2. The width of progress bar will be updated if scrolling.
