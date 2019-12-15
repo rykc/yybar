@@ -1,14 +1,14 @@
 {
   "name": "yybar",
   "version": "1.0.0",
-  "description": "",
+  "description": "YYBar - A Reading Progress Bar",
   "main": "src/yybar.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ['YYBar','progress bar','reading progress'],
+  "author": "rykc",
+  "license": "BSD-2-Clause",
   "devDependencies": {
     "rollup-plugin-babel-minify": "^9.1.1"
   }
