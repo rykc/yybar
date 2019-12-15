@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ['YYBar','progress bar','reading progress'],
+  "keywords": ["YYBar","progress bar","reading progress"],
   "author": "rykc",
   "license": "BSD-2-Clause",
   "devDependencies": {
