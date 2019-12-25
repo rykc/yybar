@@ -16,7 +16,7 @@
 ###### 7. It can be placed at the top or below of page.
 ###### 8. Support auto hide if scrolling up.
 ###### 9. You can customize all its color, text and height.
-###### 10. Provide `dispose` method if need to detach YYBar from the page.
+###### 10. Provide `dispose` method if need to detach YYBar from the page, it is necessary if YYBar is used in SPA.
 ``` 
     const yybar = new Yybar("yybar")
     yybar.dispose();
